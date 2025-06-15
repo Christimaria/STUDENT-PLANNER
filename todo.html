@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Today's Tasks</h2>
+
+  <input id="taskInput" type="text" placeholder="Add a new task...">
+  <button onclick="addTask()">Add</button>
+
+  <ul id="taskList">
+    <li>Complete Physics notes <button onclick="this.parentElement.remove()">X</button></li>
+    <li>Revise Calculus <button onclick="this.parentElement.remove()">X</button></li>
+    <li> Submit CS Lab <button onclick="this.parentElement.remove()">X</button></li>
+  </ul>
+
+  <a id="todolink" href="index.html">← Back to Home</a>
+  <script src="todo.js"></script>
+</body>
+</html>

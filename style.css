@@ -1,0 +1,210 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 20px;
+  
+  background-color: #7ca0c2;
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  background-attachment: fixed;
+ 
+  color: #222;
+
+}
+
+
+.contain {
+  max-width: 700px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.contain h2 {
+  font-size: 2.5em;
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+
+.subject-page {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #f5faff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.subject-page h2 {
+  font-size: 2.8em;
+  color: #2a2a72;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#subject-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#subject-list li {
+  font-size: 1.4em;
+  padding: 15px 25px;
+  margin: 12px auto;
+  max-width: 500px;
+  background-color: #e0f0ff;
+  color: #003366;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.subject-page li:hover {
+  background-color: #c3e6ff;
+  transform: scale(1.02);
+}
+
+.subject-page a {
+  display: inline-block;
+  margin-top: 35px;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #5a2a8d;
+  font-weight: 500;
+}
+
+.subject-page a:hover {
+  text-decoration: nonunderline;
+}
+
+
+#timer {
+  font-size: 4em;
+  color: #222;
+  margin: 30px 0;
+}
+
+.timer-buttons button {
+  background-color:#003366 ;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1.1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.timer-buttons button:hover {
+  background-color: #256646;
+}
+
+.contain a {
+  display: inline-block;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #5a2a8d;
+  font-size: 1em;
+}
+
+.contain a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+  max-width: 600px;    
+  margin: 0 auto;       
+  padding: 20px;        
+  text-align: center;   
+}
+
+#quote-box {
+  background-color: #e8f4ff;
+  border-left: 5px solid #3399ff;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.nav-tabs {
+  display: flex;
+  flex-direction: column; /* or row if you want them in a single line */
+  gap: 15px;
+  max-width: 300px;
+}
+
+.nav-tabs a {
+  display: block;
+  background-color: #d9eaff;
+  color: #003366;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-tabs a:hover {
+  background-color: #a3d3ff;
+  transform: translateY(-2px);
+}
+
+
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.calendar {
+  display: flex;
+  gap: 10px;
+}
+
+.day {
+  background: #e3f2fd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  padding: 10px 15px;
+  margin: 8px auto;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar .day {
+  font-size: 14px;
+  font-weight: bold;
+  background: #e3f2fd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 120
+

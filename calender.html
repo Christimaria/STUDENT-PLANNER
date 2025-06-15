@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Calendar</title>
+  <link rel="stylesheet" href="sty.css">
+  <style>
+    body{
+        background-color: #7ca0c2;
+    }
+    .calendar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f0f8ff;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .day {
+      background: #ffffff;
+      border-left: 5px solid #4CAF50;
+      padding: 12px 16px;
+      margin: 8px 0;
+      border-radius: 6px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    .day span {
+      display: block;
+      color: #333;
+      font-weight: normal;
+      margin-top: 4px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>This Week's Study Calendar</h2>
+
+  <div class="calendar">
+    <div class="day">Monday <span>Math Lecture – 9:00 AM</span></div>
+    <div class="day">Tuesday <span> CS Lab – 11:00 AM</span></div>
+    <div class="day">Wednesday <span> Submit English Essay – 4:00 PM</span></div>
+    <div class="day">Thursday <span> Graphics Assignment – 2:00 PM</span></div>
+    <div class="day">Friday <span> Physics Test – 10:00 AM</span></div>
+  </div>
+
+  <a href="index.html">← Back to Home</a>
+</body>
+</html>
